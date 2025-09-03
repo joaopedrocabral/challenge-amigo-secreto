@@ -24,7 +24,6 @@ function adicionarAmigo() {
     } else {
         amigos.push(amigo);
         atualizarLista();
-        console.log(amigos);
         alterarMensagem("mensagem", "Amigo adicionado com sucesso!");
         limparCampo("amigo");
     }
@@ -53,5 +52,4 @@ function sortearAmigo(){
 
     }
 
-    
 }
